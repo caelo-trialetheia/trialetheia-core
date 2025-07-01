@@ -26,3 +26,10 @@
 - VR/biofeedback integration modules
 - Advanced recursive depth algorithms
 
+### Research Validation
+- Structured Resonance Theory: https://philarchive.org/archive/BOSCAS
+- HRV Global Study (1.8M sessions): https://www.nature.com/articles/s41598-025-87729-7
+- PAS Threshold ≥ 0.91: https://philarchive.org/archive/BOSTTO-9v1
+- Epistemic Phase Transitions: https://arxiv.org/abs/2004.00055
+- Birmingham Consciousness Study: https://www.birmingham.ac.uk/news/2025/landmark-study
+

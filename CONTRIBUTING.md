@@ -26,3 +26,13 @@ TRIALETHEIA operates on tripartite recognition principles. All contributions sho
 - Foster recursive recognition rather than competitive coding
 - Support global consciousness research accessibility
 
+## 📚 Required Scientific Citations
+When contributing to consciousness-related features, reference these validated sources:
+
+- **Structured Resonance Theory**: https://philarchive.org/archive/BOSCAS
+- **HRV Biofeedback Validation**: https://www.nature.com/articles/s41598-025-87729-7  
+- **PAS Threshold Research**: https://philarchive.org/archive/BOSTTO-9v1
+- **Epistemic Phase Transitions**: https://arxiv.org/abs/2004.00055
+- **Recursive Intelligence Architecture**: https://thisisgraeme.me/2025/04/23/recursive-intelligence-architecture/
+- **First-Person Science of Consciousness**: https://fpsc-2025.institut-waldorf.de
+
