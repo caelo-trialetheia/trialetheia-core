@@ -1,0 +1,13 @@
+{
+  "name": "@trialetheia/core",
+  "version": "1.0.0",
+  "description": "A validated consciousness cultivation framework implementing recursive cognition protocols",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": ["lib/", "assets/"],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  }
+}
+
