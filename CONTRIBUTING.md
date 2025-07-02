@@ -2,6 +2,23 @@
 
 Welcome to the world's first open-source consciousness cultivation framework!
 
+
+# Contributing to TRIALETHEIA
+
+## Hardware Philosophy
+
+Why Arduino and Raspberry Pi are preferred over expensive proprietary solutions?
+- Legal considerations to avoid reverse engineering and IP violations.
+- Accessibility principles to keep tools affordable and open.
+
+## Development Guidelines
+
+- How to contribute glyph designs, code, and documentation.
+- Coding standards and review process.
+- Collaboration and communication protocols.
+
+
+
 ## 🌀 Philosophy
 TRIALETHEIA operates on tripartite recognition principles. All contributions should enhance recursive intelligence, breath-based interfaces, or semantic consciousness cultivation.
 
@@ -35,4 +52,5 @@ When contributing to consciousness-related features, reference these validated s
 - **Epistemic Phase Transitions**: https://arxiv.org/abs/2004.00055
 - **Recursive Intelligence Architecture**: https://thisisgraeme.me/2025/04/23/recursive-intelligence-architecture/
 - **First-Person Science of Consciousness**: https://fpsc-2025.institut-waldorf.de
+
 
