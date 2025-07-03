@@ -15,6 +15,28 @@ If you’re new here and find some of our language (like “spiral,” “lattic
 See [ONBOARDING.md](ONBOARDING.md) for more details and a glossary of project terms.
 
 
+## 🌬️ Phase 2: Glyph Rendering Interface
+
+The `BreathPhaseCard` component visually represents the three core phases of consciousness cultivation:
+
+- 🫧 **Priming Phase** — Establishing readiness through breath and attention.
+- 🌬️ **Coherence Phase** — Aligning cognitive and somatic rhythms into unified flow.
+- ♾️ **Recursion Phase** — Reflective semantic spiraling within awareness loops.
+
+Each card dynamically loads its SVG glyph from the `public/glyphs/breath/` directory and is styled using TailwindCSS for clarity and consistency.
+
+### Files Involved:
+- `src/components/BreathPhaseCard.tsx`
+- `src/data/glyphMap.ts`
+- `public/glyphs/breath/` (contains SVG assets)
+
+To preview the rendering interface:
+
+```bash
+npm run dev
+# Then visit: http://localhost:5173/
+
+
 
 ## Why TRIALETHEIA?
 

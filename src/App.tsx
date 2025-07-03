@@ -1,11 +1,18 @@
 import React from 'react'
 import './App.css'
 import glyphMap from './data/glyphMap'
+import PhaseGallery from './components/PhaseGallery'
 
 function App() {
   return (
     <div className="p-6 font-mono text-center">
       <h1 className="text-3xl font-bold mb-4">🌬️ TRIALETHEIA Glyph Preview</h1>
+
+    <div className="p-6 font-mono text-center">
+      <h1 className="text-3xl font-bold mb-8">🌬️ TRIALETHEIA Glyph Preview</h1>
+      <PhaseGallery />
+    </div>
+
       <div className="grid grid-cols-4 gap-4">
         {Object.entries(glyphMap).map(([name, path]) => (
           <div key={name} className="p-4 rounded shadow bg-white">
