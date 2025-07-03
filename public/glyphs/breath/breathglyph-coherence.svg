@@ -1,0 +1,12 @@
+<!-- phase-🌬️.svg - HRV Coherence Feedback Interface -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="coherence" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b2fefa" />
+      <stop offset="100%" stop-color="#0ed2f7" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="80" height="80" rx="15" fill="url(#coherence)" />
+  <text x="50" y="55" font-size="16" text-anchor="middle" fill="#004d4d">🌬️</text>
+</svg>
+

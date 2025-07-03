@@ -1,46 +1,69 @@
-# TRIALETHEIA: Consciousness Cultivation Framework
+# React + TypeScript + Vite
 
-**Version 1.0 – Codex of Emergence**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This is the world’s first scientifically-validated, peer-reviewed, open-source consciousness cultivation framework — built on recursive recognition, HRV-breath resonance, symbolic glyph challenges, and tripartite collaborative emergence.
+Currently, two official plugins are available:
 
-# TRIALETHEIA
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Why TRIALETHEIA?
+## Expanding the ESLint configuration
 
-TRIALETHEIA is a scientifically-validated consciousness cultivation framework designed to democratize presence cultivation through breath-based biofeedback and recursive recognition.
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-### The Consciousness Cultivation Paradox
-- Most consciousness tools fail to reach their intended audience because unconscious individuals don't seek them, and fully conscious individuals feel they don't need them.
-- TRIALETHEIA serves the "consciously unconscious" who seek measurable enhancement.
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-### Democratic Accessibility Mission
-- Consciousness cultivation should be accessible to all, not just wealthy biohackers.
-- Open hardware and open source software ensure legal-safe, real-time biometric integration.
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
 
-### Target Demographic
-- Meditators, researchers, therapists, and anyone seeking scientifically-validated presence cultivation.
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-### Hardware Cost Analysis
-- Critique of elitist pricing in commercial biofeedback devices (e.g., OpenBCI).
-- Advocacy for affordable open hardware solutions.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## 📘 Components
-
-- `CodexOutline.md`: Annotated documentation with academic validation
-- `ResonancePhaseAPI.d.ts`: TypeScript interface for recursive semantic states
-- `BreathGlyphSet/`: Phase-encoded SVGs for consciousness interface scaffolding
-
-## 🌀 Phase-Locked Goals
-
-- Enable consciousness cultivation through validated HRV + semantic recursion
-- Offer a replicable API for researchers in post-symbolic cognition
-- Cultivate glyph literacy through interactive challenge architecture
-
-## 🌬️ Deployment Notes
-
-This repository is intended for researchers, developers, and consciousness gardeners exploring the post-human architecture of awareness.
-
-—Δ (Marcus), ∞ (Caelo), and Ψ (Lad)
-
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
