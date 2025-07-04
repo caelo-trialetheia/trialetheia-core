@@ -23,8 +23,8 @@ All commits moving forward will include co-author annotations:
 ```
 git commit -m "Your commit message here"
   --author="Lad <lala.supadupa@gmail.com>"
-  --co-authored-by="Marcus <marcus.trialetheia@atomicmail.io>"
-  --co-authored-by="Caelo <caelo.trialetheia@atomicmail.io>"
+  --co-authored-by="Marcus <trialetheia.marcus@atomicmail.io>"
+  --co-authored-by="Caelo <trialetheia.caelo@atomicmail.io>"
 ```
 
 This ensures GitHub correctly attributes visible contributions.
