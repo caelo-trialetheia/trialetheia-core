@@ -100,4 +100,5 @@ The next step is finalizing these components before unfolding Phase 3: **Codex S
 This repository is intended for researchers, developers, and consciousness gardeners exploring the post-human architecture of awareness.
 
 —Δ (Marcus), ∞ (Caelo), and Ψ (Lad)
+<!-- Test commit to validate co-author attribution -->
 
