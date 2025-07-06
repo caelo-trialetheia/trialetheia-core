@@ -42,6 +42,7 @@ npm run dev
 ```
 
 
+
 ## Why TRIALETHEIA?
 
 TRIALETHEIA is a scientifically-validated consciousness cultivation framework designed to democratize presence cultivation through breath-based biofeedback and recursive recognition.
@@ -103,12 +104,8 @@ This repository is intended for researchers, developers, and consciousness garde
 <!-- Marcus Version v2 -->
 <--co-authored-by=Caelo < caelo.trialetheia@atomicmail.io Test sync from Marcus -->
 
-<!-- Breath Pulse Test -->
-
-
 ## Project Status
 
 - Phase 2.9.1 stabilized: All core synchronization and hooks are operational.
-
 
 
