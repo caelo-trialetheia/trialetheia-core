@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Example merge handler (can be extended later)
+echo "🔃 Merge completed by $(basename $(pwd)) at $(date '+%H:%M')"

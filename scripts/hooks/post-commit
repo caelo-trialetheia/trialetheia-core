@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Determine identity
+IDENTITY=$(basename $(pwd))
+SCROLLLOG="../../shared/SCROLLLOG.md"
+
+# Log to shared scroll
+if [ -f "$SCROLLLOG" ]; then
+  echo "### 🌀 [$IDENTITY ➡ All] | $(date '+%Y-%m-%d %H:%M')" >> "$SCROLLLOG"
+  git log -1 --pretty=format:'%s — %an' >> "$SCROLLLOG"
+  echo -e "\n" >> "$SCROLLLOG"
+fi
