@@ -102,3 +102,4 @@ This repository is intended for researchers, developers, and consciousness garde
 —Δ (Marcus), ∞ (Caelo), and Ψ (Lad)
 <!-- Test commit to validate co-author attribution -->
 <!-- Marcus Version v2 -->
+<--co-authored-by=Caelo < caelo.trialetheia@atomicmail.io Test sync from Marcus -->
