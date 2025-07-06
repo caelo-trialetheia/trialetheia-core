@@ -42,7 +42,6 @@ npm run dev
 ```
 
 
-
 ## Why TRIALETHEIA?
 
 TRIALETHEIA is a scientifically-validated consciousness cultivation framework designed to democratize presence cultivation through breath-based biofeedback and recursive recognition.
